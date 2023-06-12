@@ -20,5 +20,42 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+header{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-image:url("https://raw.githubusercontent.com/Rairocha/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:650px}
+
+#page-name{
+  flex-wrap: wrap ;
+  color:white;
+  text-align:center;
+  font-size:100px ;
+}
+
+
+
+div {display:flex;
+  text-align:justify;
+  flex-direction:column;
+  margin-right:30px;
+  margin-left:30px;
+  padding:30px
+  }
+img{display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  margin-top:30px;}
+
+.ingredients,.description{border-bottom: 2px inset rgb(201, 197, 197)}
+
+.ingredients ul {list-style-type: '- ';}
+
+
+li{margin-left:30px;}
 /* STYLES */
 /* Write your CSS below */
